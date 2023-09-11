@@ -1,0 +1,186 @@
+
+header {
+    display: flex;
+    align-items: center;
+    background-color:var(--colorGris);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    padding: 20px;
+    justify-content: space-between;
+    color: white;
+    /* margin: 0px; */
+    transition: top 0.3s ease, position 0.3s ease;
+}
+
+.encabezado-fijo {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+header div.avatar{
+    display: flex;
+    align-items: center;
+}
+
+
+header div.img_contenedor{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+/* Quien soy  */
+section{
+    margin: 20px;
+}
+
+div.quien-soy{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+div.descripcion{
+    width: 50%;
+}
+
+
+
+/* Imagen2 */
+div.img2_contenedor{
+    width: 50%;
+}
+
+/* Proyectos */
+
+div.proyectos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+section  div.card{
+    width: 30%;
+    border: 1px solid var(--colorGris);
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+section  div.descripcion_card{
+  padding: 20px;
+
+}
+
+
+
+/* Formulario */
+
+div.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+div.img_contacto{
+    width: 45%;
+    height: 510px;
+    overflow: hidden;
+}
+
+
+/* Estilos generales para el formulario */
+
+div.form_contenedor{
+    /* margin: 20px; */
+    width: 45%;
+}
+
+
+
+.formulario {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: var(--colorNegro);
+    border-radius: 5px;
+}
+
+/* Estilos para los campos */
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--colorGris);
+    background-color:var(--colorGris) ;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: var(--colorGris);
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    padding: 20px 25px;
+    border: 1px solid white;
+    border-radius: 101%;
+    margin: 0px 10px;
+}
+
+footer nav ul li a {
+    padding: 0;
+}
+
+
+footer nav ul li i {
+    font-size: 1 rem;
+}
